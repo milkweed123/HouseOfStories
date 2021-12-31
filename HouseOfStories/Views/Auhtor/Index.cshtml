@@ -1,0 +1,36 @@
+﻿@model IEnumerable<HouseOfStories.Models.Author>
+
+<p>
+    <a asp-action="Create" class="btn btn-dark">Создать нового автора</a>
+</p>
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                ФИО
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                    <tr>
+                        <td width="80%"> @item.Name </td>
+                        <td class="text-center">
+                            <div class="w-100 btn-group" role="group">
+                                <a asp-controller="Auhtor" asp-action="Edit" asp-route-Id="@item.Id" class="btn btn-light mx-2">
+                                   Реадактировать
+                                </a>
+                                <a asp-controller="Auhtor" asp-route-Id="@item.Id" asp-action="Delete" class="btn btn-dark mx-2">
+                                   Удалить
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+            }
+        }
+    </tbody>
+</table>

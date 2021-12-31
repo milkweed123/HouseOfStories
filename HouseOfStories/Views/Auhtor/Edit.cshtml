@@ -1,0 +1,32 @@
+﻿@model HouseOfStories.Models.Author
+
+
+
+<h4>Редактирование автора</h4>
+<hr />
+<div class="row">
+    <div class="col-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">ФИО автора</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class=" row">
+                    <div class="col">
+                        <input type="submit" value="Сохранить автора" class="btn btn-dark w-100" />
+                    </div>
+                    <div class="col">
+                        <a asp-action="Index" class="btn btn-light w-100">Отмена</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

@@ -8,85 +8,85 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HouseOfStories
 build_property.RootNamespace = HouseOfStories
-build_property.ProjectDir = D:\Projects\HouseOfStories\HouseOfStories\
+build_property.ProjectDir = D:\HouseOfStories\HouseOfStories\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Projects\HouseOfStories\HouseOfStories
+build_property.MSBuildProjectDirectory = D:\HouseOfStories\HouseOfStories
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/HouseOfStories/HouseOfStories/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Auhtor/Create.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Auhtor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVodG9yXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Auhtor/Edit.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Auhtor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVodG9yXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Auhtor/Index.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Auhtor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVodG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Category/Create.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Category/Edit.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Category/Index.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Home/Index.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Home/Privacy.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Quotes/Create.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Quotes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVvdGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Quotes/Edit.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Quotes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVvdGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Quotes/Index.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Quotes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVvdGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Shared/Error.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Shared/_IndividualQuote.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Shared/_IndividualQuote.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JbmRpdmlkdWFsUXVvdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Shared/_LoginPartial.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/_ViewImports.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/_ViewStart.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/HouseOfStories/HouseOfStories/Views/Shared/_Layout.cshtml]
+[D:/HouseOfStories/HouseOfStories/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uvcquwyifi

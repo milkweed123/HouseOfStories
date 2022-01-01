@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SNTNfJeA387kSGZUN2HiSMhJopdeDyXfwPxKNFauRH6oAQUy4UtdfXy+x1yUSWpo0krAMQpyv4u9Z6uzsQh9FQ==",
+  "dgSpecHash": "4mBdnV4MZYwnBYtDtn5kSjMUpDZ5nkdR9+xSnK+aYiSt2kJ/jKZiz4NlcN5PuXiAFfFjLtSo3nHuN3N/vRYBlA==",
   "success": true,
-  "projectFilePath": "D:\\HouseOfStories\\HouseOfStories\\HouseOfStories.csproj",
+  "projectFilePath": "D:\\Projects\\HouseOfStories\\HouseOfStories\\HouseOfStories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Meoe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

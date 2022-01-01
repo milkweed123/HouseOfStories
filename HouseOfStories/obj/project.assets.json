@@ -9897,11 +9897,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HouseOfStories\\HouseOfStories\\HouseOfStories.csproj",
+      "projectUniqueName": "D:\\Projects\\HouseOfStories\\HouseOfStories\\HouseOfStories.csproj",
       "projectName": "HouseOfStories",
-      "projectPath": "D:\\HouseOfStories\\HouseOfStories\\HouseOfStories.csproj",
+      "projectPath": "D:\\Projects\\HouseOfStories\\HouseOfStories\\HouseOfStories.csproj",
       "packagesPath": "C:\\Users\\Meoe\\.nuget\\packages\\",
-      "outputPath": "D:\\HouseOfStories\\HouseOfStories\\obj\\",
+      "outputPath": "D:\\Projects\\HouseOfStories\\HouseOfStories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Meoe\\AppData\\Roaming\\NuGet\\NuGet.Config",

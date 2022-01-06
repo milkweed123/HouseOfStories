@@ -534,3 +534,9 @@ D:\HouseOfStories\HouseOfStories\obj\Debug\net6.0\HouseOfStories.dll
 D:\HouseOfStories\HouseOfStories\obj\Debug\net6.0\ref\HouseOfStories.dll
 D:\HouseOfStories\HouseOfStories\obj\Debug\net6.0\HouseOfStories.pdb
 D:\HouseOfStories\HouseOfStories\obj\Debug\net6.0\HouseOfStories.genruntimeconfig.cache
+D:\Projects\HouseOfStories\HouseOfStories\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects\HouseOfStories\HouseOfStories\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects\HouseOfStories\HouseOfStories\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Projects\HouseOfStories\HouseOfStories\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projects\HouseOfStories\HouseOfStories\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Projects\HouseOfStories\HouseOfStories\bin\Debug\net6.0\Mailjet.Client.dll

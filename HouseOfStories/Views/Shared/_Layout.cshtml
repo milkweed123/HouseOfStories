@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HouseOfStories</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Хранилище цитат</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -38,14 +38,18 @@
                             <ul class="dropdown-menu">
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link text-dark dropdown-toggle" data-toggle="dropdown">Управление</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-controller="Category" asp-action="Index">Список категорий</a></li>
-                                <li><a class="dropdown-item" asp-controller="Auhtor" asp-action="Index">Список авторов</a></li>
-                                <li><a class="dropdown-item" asp-controller="Quotes" asp-action="Index">Список цитат</a></li>
-                            </ul>
-                        </li>
+                        @if (User.IsInRole(WC.AdmineRole))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-dark dropdown-toggle" data-toggle="dropdown">Управление</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-controller="Category" asp-action="Index">Список категорий</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Auhtor" asp-action="Index">Список авторов</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Quotes" asp-action="Index">Список цитат</a></li>
+                                    <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Register">Добавить пользователя</a></li>
+                                </ul>
+                            </li>
+                        }
                         <li class="nav-item">
                             <a class="nav-link text-dark " asp-area="" asp-controller="Quotes" asp-action="Create">Добавить цитату</a>
                         </li>
@@ -64,7 +68,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - HouseOfStories - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - Хранилище цитат 
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

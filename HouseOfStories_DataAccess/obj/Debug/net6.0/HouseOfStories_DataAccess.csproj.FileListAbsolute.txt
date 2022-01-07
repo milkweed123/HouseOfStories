@@ -1,0 +1,17 @@
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\obj\Debug\net6.0\HouseOfStories_DataAccess.csproj.AssemblyReference.cache
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\obj\Debug\net6.0\HouseOfStories_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\obj\Debug\net6.0\HouseOfStories_DataAccess.AssemblyInfoInputs.cache
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\obj\Debug\net6.0\HouseOfStories_DataAccess.AssemblyInfo.cs
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\obj\Debug\net6.0\HouseOfStories_DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\bin\Debug\net6.0\HouseOfStories_DataAccess.deps.json
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\bin\Debug\net6.0\HouseOfStories_DataAccess.dll
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\bin\Debug\net6.0\ref\HouseOfStories_DataAccess.dll
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\bin\Debug\net6.0\HouseOfStories_DataAccess.pdb
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\bin\Debug\net6.0\HouseOfStories_Models.dll
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\bin\Debug\net6.0\HouseOfStories_Models.pdb
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\obj\Debug\net6.0\HouseOfStories_DataAccess.csproj.CopyComplete
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\obj\Debug\net6.0\HouseOfStories_DataAccess.dll
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\obj\Debug\net6.0\ref\HouseOfStories_DataAccess.dll
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\obj\Debug\net6.0\HouseOfStories_DataAccess.pdb
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\bin\Debug\net6.0\HouseOfStories_DataAccess.runtimeconfig.json
+D:\Projects\HouseOfStories\HouseOfStories_DataAccess\obj\Debug\net6.0\HouseOfStories_DataAccess.genruntimeconfig.cache

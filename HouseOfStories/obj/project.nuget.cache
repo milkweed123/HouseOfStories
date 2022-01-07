@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "suDkxYqoOlftYh2WfnUogZ0cUyZYcNXtVdb/d6UMZsdlsIHmz0/wqKtS1zsn8dZpKh1n7JfdQdr+QTSWlQJh7w==",
+  "dgSpecHash": "47rD5Y2o1mFpzDWmgWQGjJg8V+G12TGwEvXtma/367rCYO7BayAbek22KjhKuzcPJRW5dc1d8+EeXW5Hic3uPw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\HouseOfStories\\HouseOfStories\\HouseOfStories.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,7 @@
     "C:\\Users\\Meoe\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.1\\microsoft.aspnetcore.cryptography.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.1\\microsoft.aspnetcore.cryptography.keyderivation.6.0.1.nupkg.sha512",
-    "C:\\Users\\Meoe\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.0\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.0.nupkg.sha512",
+    "C:\\Users\\Meoe\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.1\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.1\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.1\\microsoft.aspnetcore.identity.ui.6.0.1.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
@@ -81,8 +81,8 @@
     "C:\\Users\\Meoe\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Meoe\\.nuget\\packages\\npgsql\\6.0.2\\npgsql.6.0.2.nupkg.sha512",
-    "C:\\Users\\Meoe\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.2\\npgsql.entityframeworkcore.postgresql.6.0.2.nupkg.sha512",
+    "C:\\Users\\Meoe\\.nuget\\packages\\npgsql\\6.0.1\\npgsql.6.0.1.nupkg.sha512",
+    "C:\\Users\\Meoe\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.1\\npgsql.entityframeworkcore.postgresql.6.0.1.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\nuget.common\\5.11.0\\nuget.common.5.11.0.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\nuget.configuration\\5.11.0\\nuget.configuration.5.11.0.nupkg.sha512",
     "C:\\Users\\Meoe\\.nuget\\packages\\nuget.dependencyresolver.core\\5.11.0\\nuget.dependencyresolver.core.5.11.0.nupkg.sha512",

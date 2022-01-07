@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using HouseOfStories.Models;
-using HouseOfStories.Data;
+using HouseOfStories_Models;
+using HouseOfStories_DataAccess.Data;
 
 namespace HouseOfStories.Controllers
 {

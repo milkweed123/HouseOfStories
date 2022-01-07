@@ -1,0 +1,11 @@
+D:\Projects\HouseOfStories\HouseOfStories_Utility\bin\Debug\net6.0\HouseOfStories_Utility.deps.json
+D:\Projects\HouseOfStories\HouseOfStories_Utility\bin\Debug\net6.0\HouseOfStories_Utility.dll
+D:\Projects\HouseOfStories\HouseOfStories_Utility\bin\Debug\net6.0\ref\HouseOfStories_Utility.dll
+D:\Projects\HouseOfStories\HouseOfStories_Utility\bin\Debug\net6.0\HouseOfStories_Utility.pdb
+D:\Projects\HouseOfStories\HouseOfStories_Utility\obj\Debug\net6.0\HouseOfStories_Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\HouseOfStories\HouseOfStories_Utility\obj\Debug\net6.0\HouseOfStories_Utility.AssemblyInfoInputs.cache
+D:\Projects\HouseOfStories\HouseOfStories_Utility\obj\Debug\net6.0\HouseOfStories_Utility.AssemblyInfo.cs
+D:\Projects\HouseOfStories\HouseOfStories_Utility\obj\Debug\net6.0\HouseOfStories_Utility.csproj.CoreCompileInputs.cache
+D:\Projects\HouseOfStories\HouseOfStories_Utility\obj\Debug\net6.0\HouseOfStories_Utility.dll
+D:\Projects\HouseOfStories\HouseOfStories_Utility\obj\Debug\net6.0\ref\HouseOfStories_Utility.dll
+D:\Projects\HouseOfStories\HouseOfStories_Utility\obj\Debug\net6.0\HouseOfStories_Utility.pdb

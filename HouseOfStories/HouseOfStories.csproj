@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Mailjet.Api" Version="1.2.2" />
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
@@ -18,7 +18,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.1" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.2" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HouseOfStories_DataAccess\HouseOfStories_DataAccess.csproj" />
+    <ProjectReference Include="..\HouseOfStories_Models\HouseOfStories_Models.csproj" />
+    <ProjectReference Include="..\HouseOfStories_Utility\HouseOfStories_Utility.csproj" />
   </ItemGroup>
 
 </Project>

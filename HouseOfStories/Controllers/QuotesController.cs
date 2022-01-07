@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using HouseOfStories.Data;
-using HouseOfStories.Models;
+using HouseOfStories_DataAccess.Data;
+using HouseOfStories_Models;
 
 namespace HouseOfStories.Controllers
 {

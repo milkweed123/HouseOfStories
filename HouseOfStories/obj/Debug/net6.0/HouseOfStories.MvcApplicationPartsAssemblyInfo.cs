@@ -11,6 +11,8 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("HouseOfStories_DataAccess")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("HouseOfStories_Utility")]
 [assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Microsoft.AspNetCore.Identity.UI")]
 
 // Создано классом WriteCodeFragment MSBuild.

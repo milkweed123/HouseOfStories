@@ -1,5 +1,5 @@
 using HouseOfStories;
-using HouseOfStories.Data;
+using HouseOfStories_DataAccess.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +18,7 @@ builder.Services.AddIdentity<IdentityUser,IdentityRole>(options => options.SignI
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddTransient<IEmailSender, EmailSender>();
+builder.Services.AddTransient<IEmailSender, HouseOfStories_Utility.EmailSender>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

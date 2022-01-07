@@ -10,7 +10,22 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Прочие файлы",
       "ColorIndex": -1
+    },
+    "b19a3c83-6e65-48c8-9ae5-0713999ffcad": {
+      "ProjectGuid": "b19a3c83-6e65-48c8-9ae5-0713999ffcad",
+      "DisplayName": "HouseOfStories_Utility",
+      "ColorIndex": 1
+    },
+    "4f973153-d0ed-4742-92b9-43ac8ee30969": {
+      "ProjectGuid": "4f973153-d0ed-4742-92b9-43ac8ee30969",
+      "DisplayName": "HouseOfStories_Models",
+      "ColorIndex": 2
+    },
+    "cd209a42-1f21-4482-8e2a-69a1c2d85fb4": {
+      "ProjectGuid": "cd209a42-1f21-4482-8e2a-69a1c2d85fb4",
+      "DisplayName": "HouseOfStories_DataAccess",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }

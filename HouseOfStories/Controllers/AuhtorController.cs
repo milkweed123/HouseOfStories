@@ -1,5 +1,5 @@
-﻿using HouseOfStories.Data;
-using HouseOfStories.Models;
+﻿using HouseOfStories_DataAccess.Data;
+using HouseOfStories_Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

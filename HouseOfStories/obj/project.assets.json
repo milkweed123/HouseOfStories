@@ -75,10 +75,10 @@
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.0": {
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.0"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.1"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {}
@@ -1594,7 +1594,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Npgsql/6.0.2": {
+      "Npgsql/6.0.1": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -1606,13 +1606,13 @@
           "lib/net6.0/Npgsql.dll": {}
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.2": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.1",
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.1",
-          "Npgsql": "6.0.2"
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Npgsql": "6.0.1"
         },
         "compile": {
           "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
@@ -3192,6 +3192,48 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "HouseOfStories_DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "HouseOfStories_Models": "1.0.0",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "6.0.1",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.1",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.1",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.1",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/HouseOfStories_DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HouseOfStories_DataAccess.dll": {}
+        }
+      },
+      "HouseOfStories_Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HouseOfStories_Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HouseOfStories_Models.dll": {}
+        }
+      },
+      "HouseOfStories_Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Mailjet.Api": "1.2.2",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/HouseOfStories_Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HouseOfStories_Utility.dll": {}
+        }
       }
     }
   },
@@ -3309,10 +3351,10 @@
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.0": {
-      "sha512": "1mnjZaEH9LWfbuCfYYil64TZ6G/hnODd+WKBjEbQx5/SPjypj+2LzQ43M09JXWyRvPpjiefl/wxV0q/ACqZLRw==",
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/6.0.1": {
+      "sha512": "5hwndB69/GUWfFcBBhR5UGpbPSPzkMu83PnkJjJgYLtwLnvhREMA5ca2XPoZK4Va1o6EtuNMBAfc/3zENkYLYQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/6.0.0",
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3320,7 +3362,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml",
-        "microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.1.nupkg.sha512",
         "microsoft.aspnetcore.diagnostics.entityframeworkcore.nuspec"
       ]
     },
@@ -5748,10 +5790,10 @@
         "packageIcon.png"
       ]
     },
-    "Npgsql/6.0.2": {
-      "sha512": "j/BJY/1lqtu5ssfGEi9D+qJ/3OMrK8ZdicsW4SldV49CahRVXVHldj636ucVcEqJPNDI0h+/PWJD7oHsQ/cFAQ==",
+    "Npgsql/6.0.1": {
+      "sha512": "T0v1fSBzcQaJoa6kHGiYYi/vwTJ5VYd8DDjCxW1jazAuO2Ak1KVWMkEcQxxz/C+H/+QteJRMi/xAVHzv1kKSgg==",
       "type": "package",
-      "path": "npgsql/6.0.2",
+      "path": "npgsql/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5766,21 +5808,21 @@
         "lib/netstandard2.0/Npgsql.xml",
         "lib/netstandard2.1/Npgsql.dll",
         "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.6.0.2.nupkg.sha512",
+        "npgsql.6.0.1.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.2": {
-      "sha512": "2snTLONAs26dKdtInX4CAorkE//eDMOAVifh2EXZ/REzq5typb7MkENIix3Ma6ycukmAzCUw+br2AFdXmkmxbw==",
+    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.1": {
+      "sha512": "RosOHLphFZ5wIuqPct0IvCH4BrHB61ksW5WpywnWgdesNWvXKjhN+LJRwyGoZt9R1t4NCZhxHRePKgTHr94PJw==",
       "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/6.0.2",
+      "path": "npgsql.entityframeworkcore.postgresql/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
-        "npgsql.entityframeworkcore.postgresql.6.0.2.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.6.0.1.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
       ]
@@ -9904,18 +9946,36 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "HouseOfStories_DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../HouseOfStories_DataAccess/HouseOfStories_DataAccess.csproj",
+      "msbuildProject": "../HouseOfStories_DataAccess/HouseOfStories_DataAccess.csproj"
+    },
+    "HouseOfStories_Models/1.0.0": {
+      "type": "project",
+      "path": "../HouseOfStories_Models/HouseOfStories_Models.csproj",
+      "msbuildProject": "../HouseOfStories_Models/HouseOfStories_Models.csproj"
+    },
+    "HouseOfStories_Utility/1.0.0": {
+      "type": "project",
+      "path": "../HouseOfStories_Utility/HouseOfStories_Utility.csproj",
+      "msbuildProject": "../HouseOfStories_Utility/HouseOfStories_Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "HouseOfStories_DataAccess >= 1.0.0",
+      "HouseOfStories_Models >= 1.0.0",
+      "HouseOfStories_Utility >= 1.0.0",
       "Mailjet.Api >= 1.2.2",
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.0",
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.1",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.1",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.1",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.2"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.1"
     ]
   },
   "packageFolders": {
@@ -9944,7 +10004,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\HouseOfStories\\HouseOfStories_DataAccess\\HouseOfStories_DataAccess.csproj": {
+              "projectPath": "D:\\Projects\\HouseOfStories\\HouseOfStories_DataAccess\\HouseOfStories_DataAccess.csproj"
+            },
+            "D:\\Projects\\HouseOfStories\\HouseOfStories_Models\\HouseOfStories_Models.csproj": {
+              "projectPath": "D:\\Projects\\HouseOfStories\\HouseOfStories_Models\\HouseOfStories_Models.csproj"
+            },
+            "D:\\Projects\\HouseOfStories\\HouseOfStories_Utility\\HouseOfStories_Utility.csproj": {
+              "projectPath": "D:\\Projects\\HouseOfStories\\HouseOfStories_Utility\\HouseOfStories_Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -9963,7 +10033,7 @@
           },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.0.1, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -9989,7 +10059,7 @@
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
-            "version": "[6.0.2, )"
+            "version": "[6.0.1, )"
           }
         },
         "imports": [

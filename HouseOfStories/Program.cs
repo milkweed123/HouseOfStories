@@ -1,5 +1,7 @@
 using HouseOfStories;
 using HouseOfStories_DataAccess.Data;
+using HouseOfStories_DataAccess.Repository;
+using HouseOfStories_DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +18,11 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddIdentity<IdentityUser,IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddDefaultTokenProviders().AddDefaultUI()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 builder.Services.AddControllersWithViews();
+
 
 builder.Services.AddTransient<IEmailSender, HouseOfStories_Utility.EmailSender>();
 var app = builder.Build();

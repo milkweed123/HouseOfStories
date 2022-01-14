@@ -2,19 +2,20 @@
 using Microsoft.AspNetCore.Mvc;
 using HouseOfStories_Models;
 using HouseOfStories_DataAccess.Data;
+using HouseOfStories_DataAccess.Repository.IRepository;
 
 namespace HouseOfStories.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _db;
-        public CategoryController(ApplicationDbContext db)
+        private readonly ICategoryRepository _catRepo;
+        public CategoryController(ICategoryRepository catRepo)
         {
-            _db = db;
+            _catRepo = catRepo;
         }
         public IActionResult Index()
         {
-            IEnumerable<Category> objList = _db.Categories;
+            IEnumerable<Category> objList = _catRepo.GetAll();
             return View(objList);
         }
         //GET
@@ -25,24 +26,24 @@ namespace HouseOfStories.Controllers
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Category obj)
+        public IActionResult Create(Category obj)
         {
             if (ModelState.IsValid)
             {
-                await _db.Categories.AddAsync(obj);
-                await _db.SaveChangesAsync();
+                _catRepo.Add(obj);
+                _catRepo.Save();
                 return RedirectToAction(nameof(Index));
             }
             return View(obj);
         }
         //GET
-        public async Task<IActionResult> Edit(int? id)
+        public IActionResult Edit(int? id)
         {
             if (id == null || id == 0)
             {
                 return NotFound();
             }
-            var obj = await _db.Categories.FindAsync(id);
+            var obj =  _catRepo.Find((int)id);
             if (obj == null)
             {
                 return NotFound();
@@ -56,24 +57,24 @@ namespace HouseOfStories.Controllers
         {
             if (ModelState.IsValid)
             {
-                _db.Categories.Update(obj);
-                await _db.SaveChangesAsync();
+                _catRepo.Update(obj);
+               _catRepo.Save();
                 return RedirectToAction(nameof(Index));
             }
             return View(obj);
         }
 
         //GET
-        public async Task<IActionResult> Delete(int? id)
+        public IActionResult Delete(int? id)
         {
-            var obj = await _db.Categories.FindAsync(id);
+            var obj =  _catRepo.Find((int)id);
             if (obj == null)
             {
                 return NotFound();
             }
-            _db.Categories.Remove(obj);
-            await _db.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            _catRepo.Remove(obj);
+           _catRepo.Save();
+            return RedirectToAction(nameof(Index)); 
         }
 
     }
